@@ -1,0 +1,175 @@
+body {
+    background-image: url('landscape.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.image-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 550px;
+}
+
+.image-left {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 550px;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #222222;
+    line-height: 1.7;
+    font-weight: 600;
+
+}
+
+.home {
+    overflow: auto;
+    background-color: rgb(240, 248, 255, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.about {
+    overflow: auto;
+    background-color: rgb(127, 255, 212, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.education {
+    overflow: auto;
+    background-color: rgb(240, 248, 255, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.skills {
+    overflow: auto;
+    background-color: rgb(127, 255, 212, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.background {
+    overflow: auto;
+    background-color: rgb(240, 248, 255, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.contacts {
+    overflow: auto;
+    background-color: rgb(127, 255, 212, 0.4);
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    display: block;
+    color: rgb(26, 24, 24);
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+
+}
+
+.form-container {
+    background: rgba(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    /* A little bold */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    color: black;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.signin-btn {
+    width: 100%;
+    padding: 14px;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signin-btn:hover {
+    background: #0099cc;
+
+}
